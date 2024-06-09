@@ -1,0 +1,42 @@
+﻿Column Name,Description
+CASE_ID,Internal unique identifier for each case
+CASE_PARTICIPANT_ID,Internal unique identifier for each defendant associated with a case 
+RECEIVED_DATE,Date when Felony Review Unit received the case
+OFFENSE_CATEGORY,Broad offense category before specific charges are filed on a case
+PRIMARY_CHARGE_FLAG,A binary flag indicating whether this row records the most severe charge against the accused 
+CHARGE_ID,Internal unique identifier for each charge filed 
+CHARGE_VERSION_ID,Internal unique identifier for each version of a charge associated with charges filed 
+DISPOSITION_CHARGED_OFFENSE_TITLE,Specific title of the charged offense at disposition 
+CHARGE_COUNT,Number of charges associated with one defendant in one case 
+DISPOSITION_DATE,Date charge disposed 
+DISPOSITION_CHARGED_CHAPTER,Legal Chapter for the charge at disposition 
+DISPOSITION_CHARGED_ACT,Legal Act for the charge at disposition 
+DISPOSITION_CHARGED_SECTION,Legal Section for the charge at disposition 
+DISPOSITION_CHARGED_CLASS,Legal Class for the charge at disposition 
+DISPOSITION_CHARGED_AOIC,Administrative Office of the Illinois Courts ID for law of the charge at disposition
+CHARGE_DISPOSITION,Result of the charge 
+CHARGE_DISPOSITION_REASON,Additional information about the result of the charge 
+SENTENCE_JUDGE,Judge who oversaw the sentencing
+SENTENCE_COURT_NAME,Circuit Court District in which the sentence was determined 
+SENTENCE_COURT_FACILITY,Courthouse in which the sentence was determined 
+SENTENCE_PHASE,When this version of the sentence was created
+SENTENCE_DATE,Date of when the charge was sentenced 
+SENTENCE_TYPE,Broad type of sentence issued 
+CURRENT_SENTENCE_FLAG,Binary flag representing current sentence 
+COMMITMENT_TYPE,A more specific type of sentence issued 
+COMMITMENT_TERM,The number associated with the sentence 
+COMMITMENT_UNIT,Unit of sentence length 
+LENGTH_OF_CASE_in_Days,Number of days between a charge being arraigned and a charge being sentenced 
+AGE_AT_INCIDENT,"Age of defendant at date of incident, as recorded by law enforcement or self-reported by defendant"
+RACE,Race of defendant reported by law enforcement or self-reported
+GENDER,Gender of defendant reported by law enforcement or self-reported
+INCIDENT_CITY,The city where the offense took place
+INCIDENT_BEGIN_DATE,Date offense occurred/began
+INCIDENT_END_DATE,Date offense ended 
+LAW_ENFORCEMENT_AGENCY,Law Enforcement agency associated with the arrest 
+LAW_ENFORCEMENT_UNIT,Law Enforcement Unit within Chicago Police Department associated with the arrest 
+ARREST_DATE,Date and time of arrest
+FELONY_REVIEW_DATE,Date Felony Review result was reached 
+FELONY_REVIEW_RESULT,Result of the Felony Review process 
+ARRAIGNMENT_DATE,Date of the arraignment
+UPDATED_OFFENSE_CATEGORY,Offense category for the case updated based upon the primary charge
